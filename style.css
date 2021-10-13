@@ -1,0 +1,69 @@
+html{
+    text-align: center;
+    background-color: rgb(56, 56, 56);
+    font-family: Karla, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+strong{
+    color: white;
+}
+.links{
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 55px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: white;
+    color: rgb(56, 56, 56);
+    text-align: center;
+}
+img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    max-width: 100%;
+
+}
+.links:hover,.admin:hover{
+    background-color: rgb(56, 56, 56);
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+a{
+    text-align: center;
+    text-decoration: none;
+}
+.admin{
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    width: 10%;
+    font-size: 25px;
+    background-color: #EEEEEE;
+    color: #333333;
+    border: rgb(119, 119, 119);
+}
+label, h3{
+    color: white;
+}
+.botao {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+
+
